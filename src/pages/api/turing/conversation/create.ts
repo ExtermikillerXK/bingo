@@ -1,6 +1,6 @@
 export const runtime = 'edge'
 
-const API_ENDPOINT = 'https://extermi-cct.hf.space/'
+const API_ENDPOINT = 'https://www.bing.com/turing/conversation/create'
 
 export async function GET(req: Request) {
   const { searchParams } = new URL(req.url)
